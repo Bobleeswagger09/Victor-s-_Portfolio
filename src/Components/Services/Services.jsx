@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './services.css';
+import './Services.css';
 import { webDev, UserInterface } from '../../assets/data';
 
 import { HiOutlineClipboardList, HiOutlineArrowSmRight, HiOutlineCheckCircle, HiX } from 'react-icons/hi';
