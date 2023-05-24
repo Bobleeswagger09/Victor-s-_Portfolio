@@ -131,7 +131,6 @@ nav a.active {
 
 .about__me {
     aspect-ratio: 1/1;
-    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
     border-radius: 2rem;
     display: grid;
     place-items: center;
@@ -141,14 +140,7 @@ nav a.active {
 .about__me-image {
     border-radius: 2rem;
     overflow: hidden;
-    -webkit-transform: rotate(10deg);
-    transform: rotate(10deg);
     transition: var(--transition)
-}
-
-.about__me-image:hover {
-    -webkit-transform: rotate(0);
-    transform: rotate(0)
 }
 
 .about__cards {
@@ -1170,4 +1162,3 @@ img {
     }
 }
 
-/*# sourceMappingURL=main.28d8b8b3.css.map*/
