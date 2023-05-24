@@ -1,9 +1,9 @@
-import IMG1 from '../assets/portfolio1.jpg';
-import IMG2 from '../assets/portfolio1.jpg'
-import IMG3 from '../assets/portfolio3.jpg';
-import IMG4 from '../assets/portfolio4.jpg';
-import IMG5 from '../assets/portfolio5.png';
-import IMG6 from '../assets/portfolio6.jpg';
+import IMG1 from '../assets/Faq.png';
+import IMG2 from '../assets/Todo.png';
+import IMG3 from '../assets/Slider.png';
+// import IMG4 from '../assets/portfolio4.jpg';
+// import IMG5 from '../assets/portfolio5.png';
+// import IMG6 from '../assets/portfolio6.jpg';
 
 import AVTR1 from '../assets/avatar1.jpg';
 import AVTR2 from '../assets/avatar2.jpg';
@@ -169,9 +169,9 @@ export const content = [
   {
     id: 1,
     image: IMG1,
-    title: 'Photo Gallary Website',
+    title: 'Frequently Asked Questions',
     github: 'https://github.com',
-    demo: 'https://dribble.com/shots',
+    demo: 'https://project-2-faq-accordion-6pkrdw3ej-bobleeswagger09.vercel.app/',
   },
 
   {
@@ -179,7 +179,7 @@ export const content = [
     image: IMG2,
     title: 'Todo-list App',
     github: 'https://github.com',
-    demo: 'https://dribble.com/shots',
+    demo: 'https://simple-todo-seven-wheat.vercel.app/',
   },
 
   {
@@ -187,32 +187,32 @@ export const content = [
     image: IMG3,
     title: 'Simple Weather website',
     github: 'https://github.com',
-    demo: 'https://dribble.com/shots',
+    demo: 'https://carousel-slider-723ed8pss-bobleeswagger09.vercel.app/',
   },
 
-  {
-    id: 4,
-    image: IMG4,
-    title: 'Landing Page',
-    github: 'https://github.com',
-    demo: 'https://dribble.com/shots',
-  },
+  // {
+  //   id: 4,
+  //   image: IMG4,
+  //   title: 'Landing Page',
+  //   github: 'https://github.com',
+  //   demo: 'https://dribble.com/shots',
+  // },
 
-  {
-    id: 5,
-    image: IMG5,
-    title: 'Blog Website',
-    github: 'https://github.com',
-    demo: 'https://dribble.com/shots',
-  },
+  // {
+  //   id: 5,
+  //   image: IMG5,
+  //   title: 'Blog Website',
+  //   github: 'https://github.com',
+  //   demo: 'https://dribble.com/shots',
+  // },
 
-  {
-    id: 6,
-    image: IMG6,
-    title: 'Netflix-clone Website',
-    github: 'https://github.com',
-    demo: 'https://dribble.com/shots',
-  },
+  // {
+  //   id: 6,
+  //   image: IMG6,
+  //   title: 'Netflix-clone Website',
+  //   github: 'https://github.com',
+  //   demo: 'https://dribble.com/shots',
+  // },
 ];
  
 

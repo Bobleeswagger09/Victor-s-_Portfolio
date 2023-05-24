@@ -9,7 +9,7 @@
     grid-template-columns: repeat(2, 270px);
     justify-content: center;
     /* column-gap: 2.8rem; */
-    gap: 9.5rem
+    gap: 7.5rem
 }
 
 .section__title,
@@ -81,7 +81,7 @@
 }
 
 .services__modal-content {
-    width: 150%;
+    width: 129%;
     position: absolute;
     background-color:#1D267D;
     padding: 4.5rem 2.5rem 2.5rem;
