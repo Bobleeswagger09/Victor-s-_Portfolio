@@ -81,11 +81,12 @@
 }
 
 .services__modal-content {
-    width: 129%;
+    width: 150%;
     position: absolute;
     background-color:#1D267D;
     padding: 4.5rem 2.5rem 2.5rem;
     border-radius: 1.5rem;
+
 }
 
 .services__modal-close {
@@ -140,21 +141,29 @@
 
 /* BREAK POINTS */
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 900px) {
     .services__container {
-        grid-template-columns: repeat(2, 280px);
+
+        grid-template-columns: repeat(1, 1fr);
+        place-items: center;
+        gap: 2rem;
+    }
+
+    .services__modal-content{
+        width: 160%;
+        padding: 2rem;
+        display: grid;
+        grid-template-columns: repeat (1, 1fr );
+        place-items: center;
     }
 }
 
 @media screen and (max-width: 705px) {
-    .services__container {
-        grid-template-columns: repeat(1, 1fr);
-        gap: 3rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+    .services__modal-content {
+        width: 140%;
+        padding: 2rem;
 
+    }
     .services__content {
         padding: 3.5rem 0.5rem 1.25rem 1.5rem;
     }
@@ -163,12 +172,11 @@
     }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 640px) {
+
     .services__modal-content {
-        padding: 4.5rem 1.5rem 2.5rem;
-    }
-    .services__modal-description {
-        padding: 0;
+        width: 120%;
+        padding: 1.5rem 0.5rem 1.5rem;
     }
 }
 

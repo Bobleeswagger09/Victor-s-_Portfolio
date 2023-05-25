@@ -31,7 +31,8 @@ const Services = () => {
                             <HiX onClick={() => toggleTab(0)} className="services__modal-close" />
                             {webDev.map(({id, web,service}) =>{
                                 return(
-                                    <div key={id}>
+                                    <div key={id}
+                                    className={`services_modal-content-${id}`}>
                                         <h3 className="services__modal-title">{web}</h3>
                                         
                                         <ul className="services__modal-services grid">
