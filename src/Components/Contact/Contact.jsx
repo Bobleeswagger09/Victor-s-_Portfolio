@@ -47,7 +47,7 @@ const Contact = () => {
               <h4>WhatApp</h4>
               <h5>+234 9077638146</h5>
               
-              <a href='https://wa.me/send?phone+2349077638146' target='_blank' rel="noreferrer">send a message</a>
+              <a href='https://wa.me/send?phone+234 9077638146' target='_blank' rel="noreferrer">send a message</a>
             </article>
           </div>
             <form ref={form} onSubmit={sendEmail} >
