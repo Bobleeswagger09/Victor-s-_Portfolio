@@ -49,15 +49,12 @@ const About = () => {
             customers and teammate, as well as encouraging thought of new
             possibilities.
             <br />
-            <br />
             My specialties include Javascript and React.js and am always looking
             for opportunities to apply this skills to create intuitive and
-            user-friendly web applications. weather it’s working on the
-            frontend, backend or both, I enjoy the full development process,
-            from conceptualization to deployment.
+            user-friendly web applications.
             <br />
             <br />
-            If you’re looking for a versatile and motivated full stack developer
+            If you’re looking for a skilled and motivated frontend developer
             for your team, feel free to connect with me on any of my social
             media handles. i’m always open to new opportunities and
             partnerships.
