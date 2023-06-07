@@ -124,13 +124,13 @@ header {
 }
 
 
-@media screen and (max-width: 230px) {
+@media screen and (max-width: 720px) {
   .me{
     position: absolute;
 
     width: 19rem;
-    height: 30rem;
-    left: calc(43% - 30%);
+    height: auto;
+    left: calc(50% - 50%);
 
   }
 }

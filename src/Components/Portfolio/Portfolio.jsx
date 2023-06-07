@@ -3,8 +3,9 @@ import {content}  from '../../assets/data'
 const Portfolio = () => {
   return (
     <section id="portfolio">
-      <h2>Projects</h2>
       <h5>My Recent Work</h5>
+            <h2>Projects</h2>
+
       <div className="container portfolio_container">
         {content.map(({ id, image, title, github, demo }) => {
           return (

@@ -29,7 +29,7 @@
 .section__subtitle {
     display: block;
     font-size: 1rem;
-    margin-bottom: 4rem;
+    margin-top: 7rem;
 }
 
 .services__icon {
@@ -163,11 +163,12 @@
 
 @media screen and (max-width: 705px) {
     .services__modal-content {
-        width: 140%;
+        width: 111%;
         padding: 2rem;
 
     }
     .services__content {
+        width: 90%;
         padding: 3.5rem 0.5rem 1.25rem 1.5rem;
     }
     .services__icon {
@@ -181,18 +182,7 @@
     }
 
     .services__modal-content {
-        width: 95%;
+        width: 111%;
         padding: 1.5rem 0.5rem 1.5rem;
-    }
-}
-
-@media screen and (max-width: 360px) {
-    .services__container {
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-    }
-    .services__content {
-        padding-right: 6rem;
     }
 }

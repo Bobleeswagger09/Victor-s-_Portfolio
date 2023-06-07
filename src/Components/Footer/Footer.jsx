@@ -8,8 +8,11 @@ const Footer = () => {
     <footer>
       <a href="#" className="footer__logo">Victor Samuel</a>
 
-      <ul className="links">
-      <a href="#">Home</a>
+      <ul className="permalinks">
+          <li>
+            <a href="#">Home</a>
+          </li>
+
           
           <li>
             <a href="#about">About</a>

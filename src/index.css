@@ -105,6 +105,7 @@ body {
     cursor: pointer;
     border: 1px solid var(--color-primary);
     transition: var(--transition);
+    margin: 10px;
   }
   
   .btn:hover {
@@ -132,7 +133,7 @@ body {
       width: var(--container-width-md);
     }
     section {
-      margin-top: 5rem;
+      margin-top: 1rem;
     }
   }
   
@@ -142,8 +143,20 @@ body {
     .container {
       width: var(--container-width-sm);
     }
-    section > h2, h5{
-      margin-bottom: -1rem;
+    section >h2{
+      margin-top: 1rem;
     }
+
+    section> h5{
+      margin-top: 6rem;
+      
+    }
+
+    h4{
+        font-size: 14px;
+    }
+
+ 
+    
   }
   

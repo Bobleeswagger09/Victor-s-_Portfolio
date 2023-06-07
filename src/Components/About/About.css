@@ -83,11 +83,9 @@
   /********** MEDIA QUERIES (SMALL DEVICES) *************/
   
   @media screen and (max-width: 600px) {
-    section{
-      margin-top: 0;
-    }
     .about__me-image img {
       height: auto;
+      position: relative;
     }
   
     .about__me {
@@ -96,14 +94,14 @@
     }
     .about__cards {
       grid-template-columns: repeat(1, 1fr);
-      gap: 1rem;
+      gap: 1.09rem;
       display: flex;
       flex-direction: column;
       align-items: center;
     }
 
     .about__card {
-      width: 20rem;
+      width: 15rem;
     }
     .about__content {
       text-align: center;

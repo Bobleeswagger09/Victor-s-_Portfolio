@@ -70,4 +70,11 @@ textarea {
     .container.contact__container {
         width: var(--container-width-sm);
     }
+
+    .contact__option{
+        position: relative;
+        left: 2rem;
+        width: 80%;
+        font-size: 12px;
+    }
 }
