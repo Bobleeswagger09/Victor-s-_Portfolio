@@ -62,7 +62,7 @@ header {
 
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 /******************** Scroll STYLES ********************/
@@ -80,7 +80,7 @@ header {
 
 @media screen and (max-width: 1024px) {
   header {
-    height: 68vh;
+    height: 90vh;
   }
 
   .me {
@@ -98,8 +98,8 @@ header {
 
 @media screen and (max-width: 600px) {
   header {
-    margin:2rem 0;
-    height: 100vh;
+    margin:1rem 0 0;
+    height: 97vh;
   }
 
   .header__container> h1{
@@ -116,23 +116,13 @@ header {
     height: auto;
 
   }
+
+
   .me img{
     max-width: 100%;
     height: auto;
   }
   
-}
-
-
-@media screen and (max-width: 720px) {
-  .me{
-    position: absolute;
-
-    width: 19rem;
-    height: auto;
-    left: calc(50% - 50%);
-
-  }
 }
 
 

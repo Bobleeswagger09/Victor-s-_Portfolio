@@ -99,10 +99,6 @@
       flex-direction: column;
       align-items: center;
     }
-
-    .about__card {
-      width: 15rem;
-    }
     .about__content {
       text-align: center;
     }

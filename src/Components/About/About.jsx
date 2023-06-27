@@ -22,7 +22,8 @@ const About = () => {
             <article className="about__card">
               <FiAward className="about__icon" />
               <h5>Experience</h5>
-              <small>2+ yrs Working</small>
+              <small>2+ Years</small>
+              <small> Working</small>
             </article>
 
             <article className="about__card">
@@ -55,8 +56,7 @@ const About = () => {
             <br />
             <br />
             If you’re looking for a skilled and motivated frontend developer
-            for your team, feel free to connect with me on any of my social
-            media handles. i’m always open to new opportunities and
+            for your team, feel free to connect with me. i’m always open to new opportunities and
             partnerships.
           </p>
 
